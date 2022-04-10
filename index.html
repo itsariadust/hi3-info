@@ -9,34 +9,103 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">HI3 Info</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Valkyries</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">HI3 Info</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Valkyries</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-          </nav>
+        </nav>
 
-          <div class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold" style="text-align: center;">Welcome to HI3 Info!</h1>
-              <p class="fs-4" style="text-align: center;">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <!-- This is the jumbotron. -->
+        <div class="bg-image p-5 mb-4 bg-light rounded-3" style="background-image: url(https://pbs.twimg.com/media/EkHl9odVkAEyEVC.jpg); background-repeat: no-repeat; background-size: cover;">
+            <div class="container-fluid py-5 text-center">
+                <h1 class="display-5 fw-bold">Welcome to HI3 Info!</h1>
+                <p class="fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
             </div>
-          </div>
+        </div>
+
+        <!-- Main content here-->
+        <div class="container">
+            <h1 class="pb-2 border-bottom">Valkyries</h1>
+            <!-- S-class -->
+            <h2>S-class Valkyries</h2>
+            <table class="table">
+                <thead>
+                    <th scope="col">Icon</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/5/5c/Herrscher_of_Sentience_%28Avatar%29.png" class="img-thumbnail" width="100" height="100"></th>
+                        <td><a href="#">Herrscher of Sentience</a></td>
+                        <td>Biologic</td>
+                    </tr>
+                    <tr>
+                        <th><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/0/0f/Starchasm_Nyx_%28Avatar%29.png" class="img-thumbnail"  width="100" height="100"></th>
+                        <td><a href="#">Starchasm Nyx</a></td>
+                        <td><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/3/3c/QUA_%28Icon%29.png" class="img-fluid" width="28" height="30"> Quantum</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- A-class -->
+            <h2>A-class Valkyries</h2>
+            <table class="table">
+                <thead>
+                    <th scope="col">Icon</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/5/5c/Herrscher_of_Sentience_%28Avatar%29.png" class="img-thumbnail" width="100" height="100"></th>
+                        <td><a href="#">Herrscher of Sentience</a></td>
+                        <td>Biologic</td>
+                    </tr>
+                    <tr>
+                        <th><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/0/0f/Starchasm_Nyx_%28Avatar%29.png" class="img-thumbnail"  width="100" height="100"></th>
+                        <td><a href="#">Starchasm Nyx</a></td>
+                        <td><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/3/3c/QUA_%28Icon%29.png" class="img-fluid" width="28" height="30"> Quantum</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- B-class -->
+            <h2>B-class Valkyries</h2>
+            <table class="table">
+                <thead>
+                    <th scope="col">Icon</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/5/5c/Herrscher_of_Sentience_%28Avatar%29.png" class="img-thumbnail" width="100" height="100"></th>
+                        <td><a href="#">Herrscher of Sentience</a></td>
+                        <td>Biologic</td>
+                    </tr>
+                    <tr>
+                        <th><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/0/0f/Starchasm_Nyx_%28Avatar%29.png" class="img-thumbnail"  width="100" height="100"></th>
+                        <td><a href="#">Starchasm Nyx</a></td>
+                        <td><img src="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/3/3c/QUA_%28Icon%29.png" class="img-fluid" width="28" height="30"> Quantum</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
